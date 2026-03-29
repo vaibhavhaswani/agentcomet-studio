@@ -2,6 +2,8 @@
 
 Local registry and version control for stateful AI agents.
 
+![AgentComet Local Studio Main Screen](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/main_screen.png)
+
 ## Overview
 
 AgentComet Local Studio is a self-hosted local dashboard for managing AgentComet agents on your own machine. It gives developers a local registry for creating agents once, storing them safely, versioning them over time, and reusing them across multiple projects before publishing to a central hub.
@@ -19,6 +21,12 @@ The studio runs on `localhost`, stores metadata in SQLite, keeps agent artifacts
 - Renders and edits README content in markdown
 - Lets users inspect and download stored versions
 - Supports publish-to-hub workflows when an agent is ready
+
+## Agent Dashboard Example
+
+This view shows how uploaded agents are listed inside the local dashboard after SDK pushes or manual `.uaf` registration.
+
+![AgentComet Local Studio Dashboard](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/agentdashboard_sample.png)
 
 ## Why Use It
 

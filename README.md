@@ -2,6 +2,8 @@
 
 Local Agent Management Dashboard for building, testing, versioning, reusing, and publishing AgentComet agents before they go to the main hub.
 
+![AgentComet Studio Main Screen](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/main_screen.png)
+
 ## What It Is
 
 AgentComet Studio is a self-hosted local control plane for AgentComet agents. It gives developers a localhost dashboard for:
@@ -124,6 +126,12 @@ data/
 - manual version uploads for existing agents
 - markdown README editor and renderer
 - publish-to-hub action with visibility selection at publish time
+
+### Agent Dashboard Example
+
+The dashboard below shows how pushed or manually uploaded agents appear once they are registered locally, including version visibility and management actions.
+
+![AgentComet Studio Dashboard](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/agentdashboard_sample.png)
 
 ## Optional Hub Publishing
 
