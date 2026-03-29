@@ -1,0 +1,20 @@
+services:
+  agentcomet-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agentcomet-studio
+    ports:
+      - "3451:3451"
+    environment:
+      NODE_ENV: production
+      PORT: 3451
+      AGENTCOMET_PORT: 3451
+      NEXT_PUBLIC_APP_PORT: 3451
+      NEXT_PUBLIC_APP_URL: http://localhost:3451
+      AGENTCOMET_HUB_URL: ${AGENTCOMET_HUB_URL:-}
+      AGENTCOMET_HUB_TOKEN: ${AGENTCOMET_HUB_TOKEN:-}
+      AGENTCOMET_ENCRYPTION_KEY: ${AGENTCOMET_ENCRYPTION_KEY:-agentcomet-local-dev-encryption-key}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

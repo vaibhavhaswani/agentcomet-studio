@@ -51,6 +51,16 @@ npm run dev
 http://localhost:3451
 ```
 
+## Docker
+
+Build and run with Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+The container runs on `http://localhost:3451` and persists SQLite data plus uploaded agent artifacts in the local `data/` directory mounted into the container.
+
 ## Default Configuration
 
 ```bash
