@@ -2,7 +2,7 @@
 
 Local Agent Management Dashboard for building, testing, versioning, reusing, and publishing AgentComet agents before they go to the main hub.
 
-![AgentComet Studio Main Screen](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/main_screen.png)
+![AgentComet Studio Main Screen](./samples/main_screen.png)
 
 ## What It Is
 
@@ -131,7 +131,7 @@ data/
 
 The dashboard below shows how pushed or manually uploaded agents appear once they are registered locally, including version visibility and management actions.
 
-![AgentComet Studio Dashboard](https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/agentdashboard_sample.png)
+![AgentComet Studio Dashboard](./samples/agentdashboard_sample.png)
 
 ## Optional Hub Publishing
 
