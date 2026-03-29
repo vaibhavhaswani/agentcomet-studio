@@ -39,6 +39,25 @@ It is designed for a create-once, reuse-everywhere workflow. A developer can def
 
 ## Quick Start
 
+### Default Run Method
+
+The main way to run AgentComet Studio is from Docker Hub:
+
+```bash
+docker pull vaibhavhaswani/agentcomet-studio:latest
+docker run -p 3451:3451 \
+  -v $(pwd)/data:/app/data \
+  vaibhavhaswani/agentcomet-studio:latest
+```
+
+Then open:
+
+```text
+http://localhost:3451
+```
+
+### Local Development
+
 1. Install dependencies.
 2. Copy `.env.example` to `.env.local` if needed.
 3. Start the app:
