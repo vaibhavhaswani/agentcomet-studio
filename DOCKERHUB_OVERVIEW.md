@@ -2,7 +2,7 @@
 
 Local registry and version control for stateful AI agents.
 
-<img src="https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/main_screen.png" alt="AgentComet Local Studio Main Screen" width="100%" />
+<img src="https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/966d4b65daba21997e2a56869620dfc74b4d65e2/samples/main_screen.png" alt="AgentComet Local Studio Main Screen" width="100%" />
 
 ## Overview
 
@@ -26,7 +26,7 @@ The studio runs on `localhost`, stores metadata in SQLite, keeps agent artifacts
 
 This view shows how uploaded agents are listed inside the local dashboard after SDK pushes or manual `.uaf` registration.
 
-<img src="https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/main/samples/agentdashboard_sample.png" alt="AgentComet Local Studio Dashboard" width="100%" />
+<img src="https://raw.githubusercontent.com/vaibhavhaswani/agentcomet-studio/966d4b65daba21997e2a56869620dfc74b4d65e2/samples/agentdashboard_sample.png" alt="AgentComet Local Studio Dashboard" width="100%" />
 
 ## Why Use It
 
